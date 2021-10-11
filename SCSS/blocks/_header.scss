@@ -1,0 +1,92 @@
+.container {
+  width: 1110px;
+  margin: auto;
+}
+.header {
+  color: #4e4e4e;
+  &__top {
+    height: 120px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  &__logo {
+    width: 255px;
+  }
+  &__menu {
+    width: 500px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  &__menu-list {
+    list-style: none;
+  }
+  &__menu-link {
+    text-decoration: none;
+    font-family: "Roboto Condensed";
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 16px;
+    text-transform: uppercase;
+    color: #4e4e4e;
+  }
+  &__menu-link--active {
+    text-decoration: none;
+    font-family: "Roboto Condensed";
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 16px;
+    text-transform: uppercase;
+    color: #1abb9c;
+  }
+  &__main-screen {
+    background-image: url(../../img/main-screen-bg.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 600px;
+    text-align: center;
+    //     position: relative;
+  }
+  &__main-screen-block {
+    //     position: absolute;
+    //     margin-top: 200px;
+    left: 555px;
+  }
+  &__main-screen-title {
+    margin: 180px auto 40px;
+    font-family: "Roboto Slab";
+    font-style: normal;
+    font-weight: bold;
+    font-size: 40px;
+    line-height: 40px;
+    color: #ffffff;
+  }
+  &__main-screen-subtitle {
+    font-family: "	";
+    font-style: normal;
+    font-weight: bold;
+    font-size: 35px;
+    line-height: 40px;
+    color: #a8a8a8;
+    margin-bottom: 50px;
+  }
+  &__main-screen-btn {
+    text-decoration: none;
+    padding: 16px 20px;
+    font-family: "Roboto Condensed";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 14px;
+    text-transform: uppercase;
+    color: #ffffff;
+    background: #3f8dbf;
+    box-shadow: inset 0px -4px 0px rgba(0, 0, 0, 0.15);
+    border-radius: 3px;
+    outline: #ffffff;
+  }
+}

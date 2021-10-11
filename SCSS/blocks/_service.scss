@@ -1,0 +1,30 @@
+.service {
+  background-color: #f7f7f7;
+  padding: 72px 0 50px;
+  &__inner {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-gap: 30px;
+    text-align: center;
+    border-bottom: 1px solid #4e4e4e;
+  }
+  &__items {
+    margin-bottom: 48px;
+  }
+  &__title {
+    margin: 25px 0 25px;
+    font-family: "Roboto Slab";
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 24px;
+    color: #696969;
+  }
+  &__paragraph {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 24px;
+    color: #000000;
+  }
+}
