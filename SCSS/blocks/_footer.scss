@@ -43,19 +43,19 @@
     margin-left: 15px;
   }
   &__address::before {
-    content: url(/img/location.svg);
+    content: url(img/location.svg);
     margin-right: 5px;
   }
   &__phone::before {
-    content: url(/img/phone.svg);
+    content: url(img/phone.svg);
     margin-right: 5px;
   }
   &__email::before {
-    content: url(/img/email.png);
+    content: url(img/email.png);
     margin-right: 5px;
   }
   &__twitter-paragraph::before {
-    content: url(/img/twitter.svg);
+    content: url(img/twitter.svg);
     margin-right: 10px;
   }
   &__twitter-supparagraph {

@@ -43,17 +43,14 @@
     color: #1abb9c;
   }
   &__main-screen {
-    background-image: url(../../img/main-screen-bg.jpg);
+    background-image: url(img/main-screen-bg.jpg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     height: 600px;
     text-align: center;
-    //     position: relative;
   }
   &__main-screen-block {
-    //     position: absolute;
-    //     margin-top: 200px;
     left: 555px;
   }
   &__main-screen-title {
