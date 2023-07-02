@@ -1,5 +1,5 @@
 |   Marble Main Page  |
 |:-------------------:|
-|![](./img/marble.png)|
+|![](./img/main.png)|
 
 # [marble](https://ukmoldogazy.github.io/marble/)
